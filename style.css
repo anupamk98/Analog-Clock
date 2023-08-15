@@ -1,0 +1,101 @@
+* {
+
+  color: #fff;
+}
+.clock {
+  margin: 150px auto 0 auto;
+  width: 50vw;
+  height: 60vh;
+}
+.time {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(72, 163, 186, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(5vh);
+  height: 20vh;
+  width: 40vw;
+  border-radius: 20px;
+}
+.date {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(72, 163, 186, 1) 42%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(10vh);
+  height: 20vh;
+  width: 40vw;
+  border-radius: 20px;
+}
+
+.tm {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(72, 163, 186, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 60px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+
+.tm1 {
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(72, 163, 186, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 60px;
+  border-radius: 20px;
+  padding-top: 40px;
+}
+
+.time{
+    
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+ 
+}
+
+@keyframes scaleImage {
+
+  0%{
+      transform:scale(1);
+      
+  }
+
+  50%{
+      transform:scale(1.1);
+      
+      box-shadow: 3px 3px 10px black;
+  }
+
+  100%{
+      transform:scale(1);
+    
+  }
+  
+}
+.date{
+
+  
+    
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+ 
+}
